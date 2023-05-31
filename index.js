@@ -12,6 +12,7 @@ const counterCreator = () => {
     };
 };
 
+// Can I use this elsewhere?
 const htmlCreator = (location, childId, tag, text) => {
     const renderInDOM = () => {
         const element = document.querySelector(location);
